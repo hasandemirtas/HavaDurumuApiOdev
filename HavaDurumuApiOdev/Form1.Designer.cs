@@ -37,18 +37,20 @@
             // btnGetir
             // 
             this.btnGetir.AutoSize = true;
-            this.btnGetir.BackColor = System.Drawing.Color.Green;
+            this.btnGetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(85)))), ((int)(((byte)(126)))));
+            this.btnGetir.FlatAppearance.BorderColor = System.Drawing.Color.DarkOrange;
+            this.btnGetir.FlatAppearance.BorderSize = 3;
             this.btnGetir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGetir.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGetir.ForeColor = System.Drawing.SystemColors.Info;
+            this.btnGetir.ForeColor = System.Drawing.Color.DarkOrange;
             this.btnGetir.IconChar = FontAwesome.Sharp.IconChar.Snowflake;
-            this.btnGetir.IconColor = System.Drawing.Color.White;
+            this.btnGetir.IconColor = System.Drawing.Color.DarkOrange;
             this.btnGetir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnGetir.IconSize = 45;
             this.btnGetir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGetir.Location = new System.Drawing.Point(268, 175);
+            this.btnGetir.Location = new System.Drawing.Point(458, 97);
             this.btnGetir.Name = "btnGetir";
-            this.btnGetir.Size = new System.Drawing.Size(108, 53);
+            this.btnGetir.Size = new System.Drawing.Size(108, 57);
             this.btnGetir.TabIndex = 0;
             this.btnGetir.Text = "Getir";
             this.btnGetir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -58,9 +60,9 @@
             // cbSehirler
             // 
             this.cbSehirler.FormattingEnabled = true;
-            this.cbSehirler.Location = new System.Drawing.Point(259, 234);
+            this.cbSehirler.Location = new System.Drawing.Point(226, 115);
             this.cbSehirler.Name = "cbSehirler";
-            this.cbSehirler.Size = new System.Drawing.Size(127, 21);
+            this.cbSehirler.Size = new System.Drawing.Size(211, 21);
             this.cbSehirler.TabIndex = 1;
             // 
             // lblHavaDurumu
@@ -68,7 +70,7 @@
             this.lblHavaDurumu.AutoSize = true;
             this.lblHavaDurumu.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Bold);
             this.lblHavaDurumu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblHavaDurumu.Location = new System.Drawing.Point(416, 186);
+            this.lblHavaDurumu.Location = new System.Drawing.Point(399, 213);
             this.lblHavaDurumu.Name = "lblHavaDurumu";
             this.lblHavaDurumu.Size = new System.Drawing.Size(0, 21);
             this.lblHavaDurumu.TabIndex = 2;
@@ -88,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Chocolate;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(85)))), ((int)(((byte)(126)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHavaDurumu);
